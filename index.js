@@ -4,9 +4,7 @@ var app = express();
 var version = "1.0.1";
 
 app.get('/', function(req, res) {
-	res.json({
-		version: "1.0.0"
-	});
+    res.send("Hello Version 1.0.1");
 });
 
 app.listen(7890, function() {
