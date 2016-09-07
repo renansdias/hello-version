@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var version = "1.0.0";
+var version = "1.0.1";
 
 app.get('/', function(req, res) {
 	res.send('Hello Version: ' + version);
